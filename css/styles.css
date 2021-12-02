@@ -1,0 +1,146 @@
+#title {
+  color: azure;
+  background-color: #ff4c68;
+}
+@media (max-width: 931px) {
+  #title {
+    text-align: center;
+  }
+}
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+h2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700; 
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+/* navbar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserraat, sans-serif;
+}
+.title-image {
+  width: 225px;
+  right: 25%;
+}
+@media (min-width: 931px) {
+  .title-image {
+    width: 225px;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 22%;
+  }
+}
+body {
+  font-family: Montserrat, sans-serif;
+}
+.container {
+  padding: 0;
+}
+/* button */
+.d-button {
+  margin: 5% 3% 5% 0;
+}
+.img-cont {
+  padding-left: 10%;
+}
+/* features */
+.features-header {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.features-desc {
+  color: #8f8f8f;
+}
+
+#features {
+  text-align: center;
+  padding: 5% 20%;
+  background-color: white;
+  line-height: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+.fa-4x:hover {
+  color: red !important;
+}
+/* testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.carousel-inner {
+  padding: 7% 15%;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* pricing */
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+p {
+  color: #8f8f8f;
+}
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  line-height: 1.5;
+  padding: 7% 15%;
+}
+.cta-header {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 3.5rem;
+
+  color: white;
+}
+/* footer */
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+.end {
+  margin: 15px;
+}
+.huge{
+  font-size: 10rem;
+}
